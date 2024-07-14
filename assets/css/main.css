@@ -255,11 +255,11 @@ h6 {
         display: flex;
         list-style: none;
         align-items: center;
+        list-style-type: none;
     }
 
     .navmenu li {
         position: relative;
-        list-style-type: none;
     }
 
     .navmenu a,
