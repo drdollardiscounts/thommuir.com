@@ -100,6 +100,10 @@ h6 {
     font-family: var(--heading-font);
 }
 
+.inlineimage {
+    margin-bottom: 30px;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
