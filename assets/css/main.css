@@ -1277,6 +1277,7 @@ section,
 .services .service-item h4 a {
     color: var(--heading-color);
     transition: ease-in-out 0.3s;
+    color: white;
 }
 
 .services .service-item p {
