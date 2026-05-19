@@ -1,2 +1,0 @@
-# thommuir.com
- Thom Muir
