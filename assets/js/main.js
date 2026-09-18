@@ -75,7 +75,7 @@ document.querySelectorAll('.painting-entry .glightbox').forEach(link => {
   const medium = meta.querySelector('.medium');
   const dimensions = meta.querySelector('.dimensions');
   const parts = [medium, dimensions].filter(Boolean).map(el => el.textContent.trim());
-  if (parts.length) link.dataset.description = parts.join(' — ');
+  if (parts.length) link.dataset.description = parts.join(', ');
 });
 
 if (typeof GLightbox !== 'undefined') {
